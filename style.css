@@ -1,0 +1,25 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    height: 90vmin;
+}
+
+.grid-box {
+    border: 1px solid blue;
+    flex: none;
+    aspect-ratio: 1 / 1;
+    height: auto;
+}
+
+.grid-row {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex: auto;
+}
+
+.input-container {
+    margin-bottom: 1vmin;
+}
